@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+    <head>        
+        <!-- bower:css -->
+        <!-- endbower -->
+
+        <!-- build:css styles/main.css -->
+        <link href="styles/main.css" rel="stylesheet">
+        <!-- endbuild -->
+
+        <!-- bower:js -->
+        <!-- endbower -->
+
+        <!-- build:js scripts/popup.js -->
+        <script src="scripts/popup.js"></script>
+        <!-- endbuild -->
+
+        <link rel="stylesheet" href="./styles/bootstrap.min.css">
+        <style>
+        body{
+          min-width:400px;
+        }
+        .fb-icon{
+          height:50px;
+          padding-bottom: 13px;
+        }
+        #checkmark{
+          font-size: 41px;
+        }
+        .blocked{
+          float:right;
+        }
+        </style>
+    </head>
+    <body>
+      <div class="row">
+        <div class="col-lg-4">
+          <h2>Topic Blocker for <img src="./images/fb.svg" class="fb-icon"></h2>
+          <div class="form-group">
+            <p>Block all Facebook posts with any of the following words or phrases:</p>
+            <textarea class="form-control" rows="3" id="blocklist" placeholder="example: Huffington; Fox News; Obama; Football; Game of Thrones; Zark Muckerberg"></textarea>
+            <span class="help-block">Separate each word or phrase with a semicolon (;) Delete phrases to stop blocking them.</span>
+          </div>
+          <div class="row">
+            <div class="col-lg-4">
+              <a id="save" class="btn btn-primary btn-lg">Save</a>  
+            </div>
+          </div>
+          <!-- <div class="row">
+            <div class="col-lg-4">
+              <p class="blocked text-primary">Posts current blocked <span class="badge">0</span></p>
+            </div>
+          </div> -->
+          <div class="row">
+            
+          </div>
+        </div>
+      </div>      
+    </body>
+</html>

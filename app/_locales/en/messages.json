@@ -1,0 +1,10 @@
+{
+  "appName": {
+    "message": "Topic Blocker",
+    "description": "The name of the application"
+  },
+  "appDescription": {
+    "message": "Filter out Facebook posts by topic.",
+    "description": "The description of the application"
+  }
+}
